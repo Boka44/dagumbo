@@ -5,7 +5,8 @@
     "license": "MIT",
     "author": "Boka44",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "build-sass": "node-sass --include-path scss public/scss/creative.scss public/css/creative.css"
     },
     "dependencies": {
         "body-parser": "^1.18.3",
@@ -18,14 +19,5 @@
         "magnific-popup": "^1.1.0",
         "path": "^0.12.7",
         "scrollreveal": "3.4.0"
-    },
-    "devDependencies": {
-        "browser-sync": "2.24.3",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "3.9.4",
-        "gulp-header": "2.0.5",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "4.0.1",
-        "gulp-uglify": "3.0.0"
     }
 }
